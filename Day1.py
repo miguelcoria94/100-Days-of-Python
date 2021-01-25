@@ -13,3 +13,5 @@ print("this is a test \noh a new line")
 print("helo" + " world")
 
 print("watch your indentations")
+
+input("What is your name? \n")
