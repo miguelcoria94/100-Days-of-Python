@@ -15,3 +15,5 @@ print("helo" + " world")
 print("watch your indentations")
 
 input("What is your name? \n")
+
+print("Hello " + input("What is your name? \n"))
