@@ -19,13 +19,24 @@
 
 # print(len(input("what is your name? \a")))
 
-a = input("a: ")
-b = input("b: ")
+# a = input("a: ")
+# b = input("b: ")
 
-c = a
-d = b
-a = d
-b = c
+# c = a
+# d = b
+# a = d
+# b = c
 
-print("a: " + a)
-print("b: " + b)
+# print("a: " + a)
+# print("b: " + b)
+
+print("Welcome to band name generator")
+
+city = input("What city did you grow up in? \n")
+
+print("thank you ")
+
+petname = input("What is your pets name? \n")
+
+print("Your band name is " + city  + " " + petname + "!")
+
