@@ -3,3 +3,5 @@
 print("Miguel Coria")
 print("Hello World!")
 print("This is to easy")
+
+print("So day 1 is just a bunch of print statements")
