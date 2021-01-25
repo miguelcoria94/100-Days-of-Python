@@ -17,5 +17,15 @@
 
 # print("Hello " + input("What is your name? \n"))
 
-print(len(input("what is your name? \a")))
+# print(len(input("what is your name? \a")))
 
+a = input("a: ")
+b = input("b: ")
+
+c = a
+d = b
+a = d
+b = c
+
+print("a: " + a)
+print("b: " + b)
