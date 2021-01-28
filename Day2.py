@@ -1,0 +1,1 @@
+GOAL: Make a tip calculator
