@@ -7,13 +7,36 @@
 #     print("Sorry, you have to be taller than 120")2
 
 # 🚨 Don't change the code below 👇
-number = int(input("Which number do you want to check? "))
+# number = int(input("Which number do you want to check? "))
+# # 🚨 Don't change the code above 👆
+
+# #First *fork* your copy. Then copy-paste your code below this line 👇
+# #Finally click "Run" to execute the tests
+
+# if number % 2 == 0:
+#     print("this is an even number")
+# else:
+#     print("this is not an even number")
+
+# -----------------------------------------------------------
+
+# 🚨 Don't change the code below 👇
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
 # 🚨 Don't change the code above 👆
 
 #First *fork* your copy. Then copy-paste your code below this line 👇
 #Finally click "Run" to execute the tests
 
-if number % 2 == 0:
-    print("this is an even number")
+bmi = round(weight / (height ** 2))
+
+if float(bmi) < 18.5:
+    print(f"Your BMI is {bmi}, you are underweight")
+elif bmi <= 25:
+    print(f"Your BMI is {bmi}, you have a normal weight.")
+elif bmi <= 30:
+    print(f"Your BMI is {bmi}, you are slightly overweight.")
+elif bmi <= 35:
+    print(f"Your BMI is {bmi}, you are obese.")
 else:
-    print("this is not an even number")
+    print(f"Your BMI is {bmi}, you are clinically obese.")
