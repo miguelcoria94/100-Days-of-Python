@@ -12,3 +12,8 @@ number = int(input("Which number do you want to check? "))
 
 #First *fork* your copy. Then copy-paste your code below this line 👇
 #Finally click "Run" to execute the tests
+
+if number % 2 == 0:
+    print("this is an even number")
+else:
+    print("this is not an even number")
